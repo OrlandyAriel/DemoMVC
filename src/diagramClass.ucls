@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="ull.mvc.model.Client" project="DemoMVC" 
     file="/DemoMVC/src/ull/mvc/model/Client.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="792" y="354"/>    
+    <position height="-1" width="-1" x="792" y="336"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="ull.mvc.model.Prduct" project="DemoMVC" 
     file="/DemoMVC/src/ull/mvc/model/Prduct.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="561" y="499"/>    
+    <position height="-1" width="-1" x="1042" y="335"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="ull.mvc.view.ClientView" project="DemoMVC" 
     file="/DemoMVC/src/ull/mvc/view/ClientView.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="341" y="327"/>    
+    <position height="-1" width="-1" x="359" y="335"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -40,10 +40,10 @@
   <association id="5">    
     <end type="SOURCE" refId="1" navigable="false">      
       <attribute id="6" name="clientView">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="18" width="59" x="360" y="261"/>      
       </attribute>      
       <multiplicity id="7" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="18" y="8"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
@@ -52,22 +52,26 @@
   <association id="8">    
     <end type="SOURCE" refId="1" navigable="false">      
       <attribute id="9" name="listClientsModel">        
-        <position height="18" width="81" x="597" y="287"/>      
+        <position height="18" width="81" x="617" y="282"/>      
       </attribute>      
       <multiplicity id="10" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="0" y="-18"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="11">    
+  <dependency id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="12">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="12" name="favoriteProduct">        
-        <position height="18" width="82" x="621" y="399"/>      
+      <attribute id="13" name="favoriteProduct">        
+        <position height="18" width="82" x="889" y="316"/>      
       </attribute>      
-      <multiplicity id="13" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
+      <multiplicity id="14" minimum="0" maximum="1">        
+        <position height="0" width="0" x="481" y="-164"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
