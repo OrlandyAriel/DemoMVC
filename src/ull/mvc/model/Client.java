@@ -12,10 +12,6 @@ public class Client
 	private long telephone;
 	private Prduct favoriteProduct;
 	
-	public Client()
-	{
-	}
-
 	public String getFirtsName()
 	{
 		return firtsName;

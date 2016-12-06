@@ -6,9 +6,7 @@ public class Prduct
 {
 	private String name;
 	private double cost;
-	public Prduct()
-	{
-	}
+ 
 	public String getName()
 	{
 		return name;
